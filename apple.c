@@ -27,5 +27,6 @@ int main()
     ac = count(tree[0],apple,home,ao[0]);
     oc = count(tree[1],orange,home,ao[1]);
     printf("%d\n%d",ac,oc);
+    getch();
     return 0;
 }
