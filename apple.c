@@ -20,6 +20,7 @@ int count(int pos,int *dis,int *range,int n)
 }
 int main()
 {
+    printf("now this");
     int home[2],tree[2],ao[2],ac,oc;
     inp(home,2);inp(tree,2);inp(ao,2);
     int apple[ao[0]],orange[ao[1]];
