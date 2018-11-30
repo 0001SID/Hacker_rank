@@ -14,8 +14,6 @@ void comb(long int *arr, long int n, long int r, long int stick)
     memset(rept, 0, r * sizeof(long int));
     while (check <= pow(n, r))
     {
-        if (n == 20)
-        printf("%ld  ",check);
         for (long int i = 0; i < r; i++) //for making the number of array
         {
             for (long int j = 0; j < r; j++) //For checking that no number is repeating.
